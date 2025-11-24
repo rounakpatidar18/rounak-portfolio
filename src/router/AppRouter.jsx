@@ -13,7 +13,7 @@ const NotFound = lazy(() => import('../pages/NotFound/NotFound'));
 
 export default function AppRouter() {
   return (
-    <BrowserRouter basename="/rounak-portfolio">
+    <BrowserRouter basename="/rounak-portfolio"> 
       <Navbar />
       <main>
         <Routes>

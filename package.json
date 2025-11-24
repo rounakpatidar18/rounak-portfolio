@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rounakpatidar18.github.io/rounak-portfolio/",
+  "homepage": "https://rounakpatidar18.github.io/rounak-portfolio/", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",

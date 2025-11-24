@@ -19,7 +19,6 @@ The portfolio is styled with modern CSS and is fully **responsive**, providing a
 - **React**
 - **React Hooks**
 - **CSS / Responsive Design**
-- **EmailJS Integration**
 - Performance Optimization Techniques
 
 ## Installation & Setup
