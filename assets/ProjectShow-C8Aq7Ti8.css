@@ -1,0 +1,1 @@
+.project-show img{object-fit:cover;border-radius:12px;max-height:460px}.project-show__body{margin-top:1rem}.project-show__actions{flex-wrap:wrap;gap:.6rem;margin-top:1rem;display:flex}.project-show__tags{color:var(--muted);margin-top:1rem}@media (max-width:900px){.project-show img{max-height:320px}}
