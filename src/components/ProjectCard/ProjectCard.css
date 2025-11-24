@@ -1,0 +1,13 @@
+.project {
+  display:flex;
+  flex-direction:column;
+  gap: 0.6rem;
+  overflow: hidden;
+}
+.project__img img { height: 180px; width:100%; object-fit:cover; transition: transform var(--transition); }
+.project:hover .project__img img { transform: scale(1.04); }
+.project__content { padding: 0.4rem 0; }
+.project__meta { display:flex; justify-content:space-between; align-items:center; gap: 0.6rem; margin-top: 0.6rem; }
+.tags { display:flex; gap: 0.4rem; flex-wrap:wrap; }
+.tag { background: rgba(0,0,0,0.04); padding: 0.2rem 0.5rem; border-radius: 6px; font-size: 0.8rem; color: var(--muted); }
+@media (min-width: 900px) { .project__img img { height: 200px; } }

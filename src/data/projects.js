@@ -1,0 +1,41 @@
+import eventImg from '../assets/images/event_managment.png';
+import portfolioImg from '../assets/images/portfollio.png';
+import todoImg from '../assets/images/todo_application.png';
+
+const projects = [
+  {
+    id: '1',
+    slug: 'event-management-system',
+    title: 'Event Management System',
+    description: 'A role-based event management platform with user authentication built using Ruby on Rails.',
+    longDescription: 'This Event Management System includes secure user authentication and authorization using the Devise gem. The platform supports two primary user roles: Attendee and Organizer, each with different access levels. Organizers can create, update, and manage events, while Attendees can view events, register, and manage their participation. The system is built with Ruby on Rails, integrates PostgreSQL for data storage, and follows clean MVC architecture with role-based access control.',
+    tags: ['Ruby on Rails', 'Devise', 'Role-Based Access', 'PostgreSQL', 'MVC'],
+    image: eventImg,
+    alt: 'Event Management System screenshot',
+    source: 'https://github.com/rounakpatidar18/event_managment'
+  },
+  {
+    id: '2',
+    slug: 'react-portfolio',
+    title: 'Personal Portfolio Website',
+    description: 'A modern, multi-page portfolio built with React using hooks and optimized components.',
+    longDescription: 'This is a custom-built personal portfolio website created with React. The project follows best practices using React Hooks, reusable components, and optimized rendering techniques for improved performance. Styled using modern CSS, the portfolio includes key sections such as Home, About, Projects, and Resume/Skills, and provides a clean, responsive UI. The portfolio also includes an overview about myself, skills, experience, and showcases my development work.',
+    tags: ['React', 'Hooks', 'CSS', 'Responsive Design', 'Performance Optimization'],
+    image: portfolioImg,
+    alt: 'React Portfolio Website screenshot',
+    source: 'https://github.com/rounakpatidar18/rounak_patidar-portfolio'
+  },
+  {
+    id: '3',
+    slug: 'todo-list-app',
+    title: 'Todo List App',
+    description: 'A full-stack Todo List application with a React frontend and Ruby on Rails API backend.',
+    longDescription: 'This Todo List application features a clean, Figma-inspired UI built with React. It is fully integrated with a Ruby on Rails backend that exposes RESTful APIs, and PostgreSQL is used for persistent data storage. The project supports adding, editing, updating, and deleting tasks, and the entire codebase is deployed on GitHub.',
+    tags: ['React', 'Ruby on Rails', 'PostgreSQL', 'REST API', 'Full-Stack'],
+    image: todoImg,
+    alt: 'Todo List App screenshot',
+    source: 'https://github.com/rounakpatidar18/react-rails-todo'
+  }
+];
+
+export default projects;

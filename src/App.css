@@ -1,0 +1,3 @@
+/* small app-level styles */
+main { min-height: calc(100vh - 160px); }
+.app-loading { padding: 40px; text-align: center; }

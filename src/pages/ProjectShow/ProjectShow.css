@@ -1,0 +1,5 @@
+.project-show img { max-height: 460px; object-fit: cover; border-radius: 12px; }
+.project-show__body { margin-top: 1rem; }
+.project-show__actions { display:flex; gap: 0.6rem; margin-top: 1rem; flex-wrap:wrap; }
+.project-show__tags { margin-top: 1rem; color: var(--muted); }
+@media (max-width: 900px) { .project-show img { max-height: 320px; } }
